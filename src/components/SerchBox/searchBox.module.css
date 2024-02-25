@@ -1,0 +1,25 @@
+.searchBar {
+  padding: 7px;
+  width: 300px;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 3px solid #6b0b3d;
+  outline: transparent;
+  margin-top: 10px;
+}
+.searchBar:hover,
+.searchBar:focus {
+  border-color: #214823;
+}
+
+.form {
+  position: relative;
+}
+.button {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-25%);
+  color: #6b0b3d;
+  background-color: inherit;
+}

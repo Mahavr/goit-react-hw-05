@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.link {
+  color: #6b0b3d;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #214823;
+}
+
+.active {
+  color: #a279aa;
+}
+.header {
+  background-color: #684a83;
+  padding: 20px 30px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.wrapper:hover .link,
+.wrapper:hover .icon {
+  color: #214823;
+}
+
+.icon {
+  color: #6b0b3d;
+}

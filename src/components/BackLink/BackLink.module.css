@@ -1,0 +1,22 @@
+.back {
+  display: block;
+  margin-top: 5px;
+  color: #6b0b3d;
+  border: 3px solid #a279aa;
+  width: 165px;
+  background-color: #a279aa82;
+  padding: 10px 25px;
+  position: relative;
+}
+.back:hover {
+  color: #a279aa;
+  border-color: #684a83;
+  background-color: #6b0b3d63;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
